@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style-type: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+.main {
+    width: 360px;
+    height: 550px;
+    background: rgba(223, 223, 223, 0.5);
+    border: 0.3mm solid gray;
+    border-radius: 5px;
+    display: block;
+}
+.main > * {
+    margin: 35px auto;
+}
+.main .inputs {
+    padding-left: 16px;
+}
+.main .inputs input {
+    width: 65%;
+    height: 30px;
+    border: 0.1mm solid gray;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding-left: 6px;
+    transition: all 100ms;
+}
+.main .inputs input:focus {
+    width: 70%;
+}
+.main .verify a {
+    display: block;
+    padding-left: 20px;
+    margin: 10px auto;
+}
+.main .verify a:hover {
+    color: #666;
+}
+.main button {
+    width: 80px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background:rgb(248, 248, 248);
+    transition: all 100ms;
+}
+.main button:hover {
+    width: 88px;
+    height: 58px;
+    background-color: rgb(245, 245, 245);
+}
+#main2 {
+    display: none;
+}
+#main2 .note {
+    padding-left: 15px;
+}
+#main3 {
+    background: black;
+    display: none;
+}
+#main3 #p {
+    margin: 50px;
+    color: lightgreen;
+    width: 40%;
+    line-height: 40px;
+}
